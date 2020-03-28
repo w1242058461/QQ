@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ContactListAdapter"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/updatePhone_txt_dialog_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updatePtPhone_txt_dialog_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updatePtPhone2_txt_dialog_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

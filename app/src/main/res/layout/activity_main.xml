@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utils.MainActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTxt"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.95"
+        android:id="@+id/viewpager"
+        android:background="@drawable/p1"
+        >
+
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rdgp"
+        >
+        <RadioButton
+            android:id="@+id/personalRdBtn"
+            android:drawableTop="@drawable/radioselector"
+            style="@style/radioStyle"
+            android:text="个人主页"
+            android:checked="true"/>
+        <RadioButton
+            style="@style/radioStyle"
+            android:text="联系人"
+            android:drawableTop="@drawable/radioselector2"
+            android:id="@+id/contactRdBtn"
+            />
+        <RadioButton
+            style="@style/radioStyle"
+            android:text="校园风采"
+            android:drawableTop="@drawable/radioselector3"
+            android:id="@+id/schoolRdBtn"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>
